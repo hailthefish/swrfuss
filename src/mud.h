@@ -166,8 +166,8 @@ typedef ch_ret SPELL_FUN( int sn, int level, CHAR_DATA * ch, void *vo );
 */
 #define MAX_KEY_HASH		 2048
 #define MAX_STRING_LENGTH	 4096 /* buf */
-#define MAX_INPUT_LENGTH	 1024 /* arg */
-#define MAX_INBUF_SIZE		 1024
+#define MAX_INPUT_LENGTH	 2048 /* arg */
+#define MAX_INBUF_SIZE		 2048
 
 #define HASHSTR   /* use string hashing */
 

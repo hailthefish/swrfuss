@@ -6,8 +6,8 @@ Race         0
 MainAbility  0
 Languages    -1 2
 Toplevel     105
-Played       151535
-Room         10306
+Played       152080
+Room         100
 HpManaMove   500 500 0 0 1000 1000
 Force        0 0 0 0
 Gold         100294
@@ -32,7 +32,7 @@ Armor        100
 Deaf         312055
 Mentalstate  0
 Password     9c3a88f26d3623fcf0a4aa881518170c70f5e1d62e0d9f9fa7e9b3f07fa299b7~
-Lastplayed   1568146250
+Lastplayed   1568157056
 Rank         Admin~
 Title        ~
 AuthedBy     Admin~
