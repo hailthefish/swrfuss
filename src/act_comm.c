@@ -196,6 +196,10 @@ char *scramble( const char *argument, int modifier )
          arg[position] = '\0';
          return arg;
       }
+      else if ( position > 0 && (argument[position-1] == '&' || argument[position-1] == '^') )
+      {
+         arg[position] = argument[position];
+      }
       else if( argument[position] >= 'A' && argument[position] <= 'Z' )
       {
          conversion = -conversion + position - modifier + argument[position] - 'A';
